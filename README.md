@@ -28,11 +28,11 @@
 
 ### Step 1: Download Zookeeper from the following URL
 
-   URL: [Download Zookeeper](http://mirrors.estointernet.in/apache/zookeeper/stable/)
+   [Download Zookeeper](http://mirrors.estointernet.in/apache/zookeeper/stable/)
 
 ### Step 2: Download Apache Kafka from the following URL
 
-   URL: [Download Apache Kafka](http://mirrors.estointernet.in/apache/kafka/)
+   [Download Apache Kafka](http://mirrors.estointernet.in/apache/kafka/)
 
 ### Step 3: Set Path to ZOOKEEPER in Environment variables up to the bin folder
 
@@ -82,6 +82,7 @@ Step 8: Create Spring Boot Project in IDE
 ### Step 10: Create RestController, KafaProducer and KafaConsumer classes to publish and subscribe message
 ### Step 11: Test application using PostMan.
 
+### sample json 
 ```json
 {
     "customerId": 101,
@@ -89,7 +90,7 @@ Step 8: Create Spring Boot Project in IDE
     "customerEmail": "suraj@gmail.com"
 }
 ```
-
+### actual request json format
 ```json
 [
     {
