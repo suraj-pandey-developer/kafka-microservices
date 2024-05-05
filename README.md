@@ -85,8 +85,38 @@ Step 8: Create Spring Boot Project in IDE
     <groupId>com.fasterxml.jackson.core</groupId>
     <artifactId>jackson-databind</artifactId>
 </dependency>
+```
 
-### Step-9: Create RestController, KafaProducer and KafaConsumer classes to publish and subsribe message
+### Step 10: Create RestController, KafaProducer and KafaConsumer classes to publish and subscribe message
+### Step 11: Test application using PostMan.
+
+```json
+{
+    "customerId": 101,
+    "customerName": "Suraj",
+    "customerEmail": "suraj@gmail.com"
+}
+```
+
+```json
+[
+    {
+        "customerId": 101,
+        "customerName": "Suraj",
+        "customerEmail": "suraj@gmail.com"
+    },
+    {
+        "customerId": 102,
+        "customerName": "Raj",
+        "customerEmail": "raj@gmail.com"
+    },
+    {
+        "customerId": 102,
+        "customerName": "John",
+        "customerEmail": "john@gmail.com"
+    }
+]
+```
 
 
-### Step-10: Test application using PostMan.
+
