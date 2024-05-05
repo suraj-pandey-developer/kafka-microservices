@@ -1,15 +1,12 @@
 # kafka-microservices
-==============
-Apache Kafka
-==============
+
+### Apache Kafka
 
 - Apache Kafka is a distributed streaming platform.
 - Apache Kafka is used to process real-time data feeds with high throughput and low latency. Ex: flights data, sensors data, stocks data, news data, social media, etc.
 - Kafka works based on the Publisher and Subscriber model.
 
-===================
-Kafka Terminology
-===================
+### Kafka Terminology
 - Zookeeper
 - Kafka Server
 - Kafka Topic
@@ -17,9 +14,8 @@ Kafka Terminology
 - Publisher
 - Subscriber
 
-===========
-Kafka APIs
-===========
+### Kafka APIs
+
 - Connector API
 - Publisher API
 - Subscriber API
