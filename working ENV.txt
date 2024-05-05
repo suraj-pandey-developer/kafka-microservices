@@ -1,0 +1,36 @@
+working ENV
+==================
+
+D:\software\kafka_28\bin\windows>zookeeper-server-start.bat zookeeper.properties
+[2024-05-05 19:09:05,748] INFO Reading configuration from: zookeeper.properties (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2024-05-05 19:09:05,751] WARN zookeeper.properties is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2024-05-05 19:09:05,752] WARN \tmp\zookeeper is relative. Prepend .\ to indicate that you're sure! (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2024-05-05 19:09:05,758] INFO clientPortAddress is 0.0.0.0:2181 (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2024-05-05 19:09:05,759] INFO secureClientPort is not set (org.apache.zookeeper.server.quorum.QuorumPeerConfig)
+[2024-05-05 19:09:05,762] INFO autopurge.snapRetainCount set to 3 (org.apache.zookeeper.server.DatadirCleanupManager)
+............................................... now it have more logs
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+D:\software\kafka_28\bin\windows>kafka-server-start.bat server.properties
+[2024-05-05 19:10:56,940] INFO Registered kafka:type=kafka.Log4jController MBean (kafka.utils.Log4jControllerRegistration$)
+[2024-05-05 19:10:57,507] INFO Setting -D jdk.tls.rejectClientInitiatedRenegotiation=true to disable client-initiated TLS renegotiation (org.apache.zookeeper.common.X509Util)
+[2024-05-05 19:10:57,602] INFO starting (kafka.server.KafkaServer)
+[2024-05-05 19:10:57,603] INFO Connecting to zookeeper on localhost:2181 (kafka.server.KafkaServer)
+[2024-05-05 19:10:57,632] INFO [ZooKeeperClient Kafka server] Initializing a new session to localhost:2181. (kafka.zookeeper.ZooKeeperClient)
+[2024-05-05 19:10:57,640] INFO Client environment:zookeeper.version=3.5.9-83df9301aa5c2a5d284a9940177808c01bc35cef, built on 01/06/2021 20:03 GMT (org.apache.zookeeper.ZooKeeper)
+[2024-05-05 19:10:57,640] INFO Client environment:host.name=NVN (org.apache.zookeeper.ZooKeeper)
+[2024-05-05 19:10:57,640] INFO Client environment:java.version=11.0.18 (org.apache.zookeeper.ZooKeeper)
+[2024-05-05 19:10:57,641] INFO Client environment:java.vendor=Oracle Corporation (org.apache.zookeeper.ZooKeeper)
+[2024-05-05 19:10:57,641] INFO Client environment:java.home=C:\Program Files\Java\jdk-11 (org.apache.zookeeper.ZooKeeper)
+..............................................
+it started
+..............................................
